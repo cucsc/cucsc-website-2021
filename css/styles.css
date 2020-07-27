@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Oswald:300");
+/* General Elements */
+body {
+  font-family: "Lato", sans-serif !important;
+}
+
+p {
+  line-height: 2;
+  font-size: 0.5rem;
+  max-width: 46rem;
+  color: #fafafa;
+}
+
+h2 {
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fafafa;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #fafafa;
+  text-decoration: none;
+}
+a:hover {
+  color: #45bf95;
+  text-decoration: none;
+}
+
+/* Header / Navbar */
+.navbar {
+  background-color: #0d242c;
+}
+#nav-logo {
+  width: 1.5rem;
+  margin: 0.5rem;
+}
+li.nav-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active:hover {
+  color: #45bf95;
+}
+
+/* Footer */
+.nav-link {
+  line-height: 2;
+  font-size: 1rem;
+}
+
+#footer-contact {
+  background-color: #0d242c;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+#footer-logo {
+  width: 1.5rem;
+  margin: 0.5rem;
+}
+
+#home,
+#footer-contact {
+  padding: 1rem;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 2rem; */
+}
