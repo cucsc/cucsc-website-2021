@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Oswald:300");
+
+body {
+    font-family: "Lato", sans-serif !important;
+}
+  
+p {
+    line-height: 2;
+    font-size: 0.5rem;
+    max-width: 46rem;
+    color: #fafafa;
+}
+  
+h2 {
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fafafa;
+    font-size: 1.2rem;
+}
+  
+a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #45bf95;
+    text-decoration: none;
+}

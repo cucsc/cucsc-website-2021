@@ -1,0 +1,22 @@
+{
+  "name": "cucsc-website-2021",
+  "version": "1.0.0",
+  "description": "This is the repository for the (in progress) landing page for the Canadian Undergraduate Computer Science Conference 2021. This README will document all required dependencies and instructions to run the repo on your local machine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cucsc/cucsc-website-2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cucsc/cucsc-website-2021/issues"
+  },
+  "homepage": "https://github.com/cucsc/cucsc-website-2021#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

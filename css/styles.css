@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Oswald:300");
+/* @import url("https://fonts.googleapis.com/css?family=Lato|Oswald:300"); */
 /* General Elements */
-body {
+/* body {
   font-family: "Lato", sans-serif !important;
 }
 
@@ -25,10 +25,10 @@ a {
 a:hover {
   color: #45bf95;
   text-decoration: none;
-}
+} */
 
 /* Header / Navbar */
-.navbar {
+/* .navbar {
   background-color: #0d242c;
 }
 #nav-logo {
@@ -42,27 +42,27 @@ li.nav-item {
 
 .navbar-dark .navbar-nav .nav-link.active:hover {
   color: #45bf95;
-}
+} */
 
 /* Footer */
-.nav-link {
+/* .nav-link {
   line-height: 2;
   font-size: 1rem;
-}
+} */
 
-#footer-contact {
+/* #footer-contact {
   background-color: #0d242c;
   color: #ffffff;
   font-family: "Lato", sans-serif;
   text-align: center;
-}
+} */
 
-#footer-logo {
+/* #footer-logo {
   width: 1.5rem;
   margin: 0.5rem;
-}
+} */
 
-#home,
+/* #home,
 #footer-contact {
   padding: 1rem;
   display: -webkit-flex;
@@ -78,5 +78,4 @@ li.nav-item {
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
-  /* margin-bottom: 2rem; */
-}
+} */

@@ -1,0 +1,22 @@
+#footer-contact {
+  background-color: #0d242c;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 1rem;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center; }
+  #footer-contact #footer-logo {
+    width: 1.5rem;
+    margin: 0.5rem; }
