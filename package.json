@@ -4,7 +4,8 @@
   "description": "This is the repository for the (in progress) landing page for the Canadian Undergraduate Computer Science Conference 2021. This README will document all required dependencies and instructions to run the repo on your local machine.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",
