@@ -1,0 +1,21 @@
+.pillars .row {
+  border: 2px solid white;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin: 2rem 3rem 2rem 3rem; }
+
+.pillars .pillar-icon {
+  width: 100%;
+  max-width: 80px;
+  margin-bottom: 20px; }
+
+.pillars #vertical-align-wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.pillars #vertical-align-wrapper td {
+  vertical-align: middle;
+  text-align: center; }
