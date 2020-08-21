@@ -1,9 +1,51 @@
 .about-us {
-    padding: 10em;
-    padding-left: 0em;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 6em;
+    
+    .about-us-container {
+        padding: 10em;
+        padding-left: 0em;
+        position: relative;
+        
+        p {
+            max-width: 30rem;
+        }
+    }
 }
 
 /* start background skytrain styles and animation */
+
+#full-skytrain {
+    width: 105%;
+    position: absolute;
+    left: 0;
+    bottom: -45em;
+    overflow: hidden;
+}
+
+@media (max-width: 800px) {
+    #full-skytrain {
+        display: none;
+    }
+}
+
+///////
+
+#canada-line {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -10%;
+}
+
+#canada-line-skytrain {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: -35%;
+
+}
 
 .skytrain-bg {
     position: absolute;
