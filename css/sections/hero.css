@@ -29,6 +29,7 @@
     min-width: 200px; }
   @media (min-width: 1500px) {
     .hero .hero-graphic {
-      margin-top: -8%; }
+      margin-top: -8%;
+      max-width: 70%; }
     .hero .header {
       font-size: 4rem; } }
