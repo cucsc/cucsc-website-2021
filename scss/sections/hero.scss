@@ -35,4 +35,12 @@
     border-radius: 3em;
     min-width: 200px;
   }
+  @media (min-width: 1500px) {
+    .hero-graphic {
+      margin-top: -8%;
+    }
+    .header {
+      font-size: 4rem;
+    }
+  }
 }
