@@ -1,8 +1,38 @@
 .hero {
-    .h1 {
-    }
-
-    .btn-join-us {
-        padding: 1% 10%;
-    }
+  margin-top: 8%;
+  margin-bottom: 8%;
+  .row {
+    margin-right: 0px;
+  }
+  .hero-text {
+    margin-left: 8%;
+  }
+  .header {
+    font-size: 3rem;
+  }
+  .graphic {
+    z-index: -1;
+  }
+  .hero-graphic {
+    margin-top: -8%;
+  }
+  .subheader-date {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .subheader-location {
+    line-height: 160%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    font-weight: 900;
+    font-size: 1rem;
+    padding: 2% 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3em;
+    min-width: 200px;
+  }
 }

@@ -1,20 +1,29 @@
 .hero {
-    margin: 8% auto;
-}
-
-.hero .text-left {
-    position: absolute;
-    margin-left: 10%;
-    margin-right: 45%;
-}
-
-.hero .graphic {
-    position: initial;
-    z-index: -1;
-}
-
-.hero .btn {
-    font-weight: bold;
+  margin-top: 8%;
+  margin-bottom: 8%; }
+  .hero .row {
+    margin-right: 0px; }
+  .hero .hero-text {
+    margin-left: 8%; }
+  .hero .header {
+    font-size: 3rem; }
+  .hero .graphic {
+    z-index: -1; }
+  .hero .hero-graphic {
+    margin-top: -8%; }
+  .hero .subheader-date {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .hero .subheader-location {
+    line-height: 160%;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .hero .btn {
+    font-weight: 900;
+    font-size: 1rem;
     padding: 2% 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 3em;
-}
+    min-width: 200px; }
