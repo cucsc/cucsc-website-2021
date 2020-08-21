@@ -6,6 +6,19 @@
     margin: 2rem 3rem 2rem 3rem;
   }
   .pillar-icon {
+    width: 100%;
     max-width: 80px;
+    margin-bottom: 20px;
+  }
+  #vertical-align-wrapper {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  #vertical-align-wrapper td {
+    vertical-align: middle;
+    text-align: center;
   }
 }
