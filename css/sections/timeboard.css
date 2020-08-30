@@ -1,0 +1,31 @@
+#timeboard-container {
+  width: 100%;
+  background-color: black;
+  padding: 2rem;
+  padding-top: 3rem; }
+  #timeboard-container #timeboard {
+    background-color: #393939;
+    max-width: 800px;
+    padding: 2rem;
+    border: 20px solid #c4c4c4;
+    border-radius: 1rem; }
+    #timeboard-container #timeboard .row img {
+      width: 40px;
+      min-width: 40px;
+      margin-right: 10px; }
+    #timeboard-container #timeboard .row .date {
+      text-align: right;
+      padding-top: 6px; }
+  @media (max-width: 660px) {
+    #timeboard-container #timeboard {
+      border: 10px solid #c4c4c4;
+      border-radius: 1rem;
+      padding: 1rem; }
+      #timeboard-container #timeboard h2 {
+        font-size: 1rem; }
+      #timeboard-container #timeboard .row .date {
+        padding-top: 4px; }
+      #timeboard-container #timeboard .row img {
+        width: 30px;
+        min-width: 30px;
+        margin-right: 6px; } }
