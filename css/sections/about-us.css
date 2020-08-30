@@ -16,6 +16,8 @@
 
 @media (max-width: 800px) {
   #full-skytrain {
-    display: none; } }
+    display: none; }
+  .about-us-container {
+    margin-left: 5em; } }
 
 /* end background skytrain styles and animation */
