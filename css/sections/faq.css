@@ -1,6 +1,8 @@
 .faq {
   position: relative;
-  padding-bottom: 15em; }
+  padding-bottom: 15em;
+  padding-left: 5rem;
+  padding-right: 5rem; }
   .faq .card {
     background-color: transparent;
     padding-top: 1em;
@@ -10,7 +12,12 @@
       border-width: 0.1em;
       border-radius: 1.5em;
       border-color: white;
-      border-style: solid; }
+      border-style: solid;
+      padding-left: 2em;
+      vertical-align: middle; }
       .faq .card .card-header .btn {
-        color: white;
-        text-align: left; }
+        color: white; }
+      .faq .card .card-header .btn[aria-expanded=false] .icon-collapsed {
+        display: none; }
+      .faq .card .card-header .btn[aria-expanded=true] .icon-expanded {
+        display: none; }
