@@ -6,3 +6,8 @@
     padding-top: 1em;
     padding-bottom: 1em;
     border-color: transparent; }
+    .faq .card .card-header {
+      border-width: 0.1em;
+      border-radius: 1.5em;
+      border-color: white;
+      border-style: solid; }
