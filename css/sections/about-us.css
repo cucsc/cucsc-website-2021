@@ -1,0 +1,23 @@
+.about-us {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 15em; }
+  .about-us .about-us-container {
+    padding: 10em;
+    padding-left: 0em;
+    position: relative; }
+    .about-us .about-us-container p {
+      max-width: 30rem; }
+
+/* start background skytrain styles and animation */
+#full-skytrain {
+  position: absolute;
+  bottom: 20%; }
+
+@media (max-width: 800px) {
+  #full-skytrain {
+    display: none; }
+  .about-us-container {
+    margin-left: 5em; } }
+
+/* end background skytrain styles and animation */
