@@ -39,6 +39,16 @@
           min-width: 30px;
           margin-right: 6px;
         }
+        @media (max-width: 480px) {
+          .long-h2 {
+            font-size: 0.8rem;
+          }
+        }
+        @media (max-width: 410px) {
+          .long-h2 {
+            font-size: 0.5rem;
+          }
+        }
       }
     }
   }
