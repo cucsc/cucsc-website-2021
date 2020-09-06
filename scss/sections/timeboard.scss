@@ -1,0 +1,55 @@
+#timeboard-container {
+  width: 100%;
+  padding: 2rem;
+  padding-top: 3rem;
+  #timeboard {
+    background-color: #393939;
+    max-width: 800px;
+    padding: 2rem;
+    border: 20px solid #c4c4c4;
+    border-radius: 1rem;
+    .row {
+      img {
+        width: 40px;
+        min-width: 40px;
+        margin-right: 10px;
+      }
+      .date {
+        text-align: right;
+        // not a multiple of 4px here, because we need precise spacing for text
+        padding-top: 6px;
+      }
+    }
+  }
+  @media (max-width: 660px) {
+    #timeboard {
+      border: 10px solid #c4c4c4;
+      border-radius: 1rem;
+      padding: 1rem;
+      h2 {
+        font-size: 1rem;
+      }
+      .row {
+        .date {
+          // not a multiple of 4px here, because we need precise spacing for text
+          padding-top: 4px;
+        }
+        img {
+          width: 30px;
+          min-width: 30px;
+          margin-right: 6px;
+        }
+        @media (max-width: 480px) {
+          .long-h2 {
+            font-size: 0.8rem;
+          }
+        }
+        @media (max-width: 410px) {
+          .long-h2 {
+            font-size: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
