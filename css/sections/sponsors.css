@@ -1,3 +1,9 @@
 .sponsors #sponsor-heart {
   height: 1em;
   width: auto; }
+
+.sponsors .col-md-4 {
+  text-align: center; }
+  .sponsors .col-md-4 .sponsor-logo {
+    max-width: 60%;
+    padding-bottom: 5em; }

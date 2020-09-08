@@ -4,5 +4,14 @@
         width: auto;
     }
 
+    .col-md-4 {
+        text-align: center;
+
+        .sponsor-logo {
+            max-width: 60%;
+            padding-bottom: 5em;
+        }
+    }
+
     
 }
