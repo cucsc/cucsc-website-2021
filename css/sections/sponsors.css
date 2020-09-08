@@ -7,3 +7,12 @@
   .sponsors .col-md-4 .sponsor-logo {
     max-width: 60%;
     padding-bottom: 5em; }
+
+.sponsors #sponsor-us-btn {
+  border-radius: 10em;
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em; }
