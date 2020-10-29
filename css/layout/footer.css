@@ -6,6 +6,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto; }
+  .gastown-socials a {
+    text-decoration: underline; }
+  .gastown-socials a:hover {
+    text-decoration: underline; }
 
 #footer-contact {
   background-color: #0d242c;
