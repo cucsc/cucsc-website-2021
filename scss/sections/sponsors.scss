@@ -1,0 +1,25 @@
+.sponsors {
+    #sponsor-heart {
+        height: 1em;
+        width: auto;
+    }
+
+    .col-md-4 {
+        text-align: center;
+
+        .sponsor-logo {
+            max-width: 60%;
+            padding-bottom: 5em;
+        }
+    }
+
+    #sponsor-us-btn {
+        border-radius: 10em;
+        font-size: 1.8em;
+        font-weight: bold;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: .2em;
+        padding-bottom: .2em;
+    }
+}
